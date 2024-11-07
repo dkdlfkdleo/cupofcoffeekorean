@@ -1,0 +1,6 @@
+[build]
+  command = "npm run export:web"
+  publish = "web-build"
+
+[build.environment]
+  EXPO_CLI_VERSION = "latest"
