@@ -16,7 +16,7 @@ const firebaseConfig = {
 
 // Firebase 초기화
 const app = initializeApp(firebaseConfig);
-const auth: Auth = getAuth(app);
+const auth = getAuth(app);
 
 export { auth };
 
