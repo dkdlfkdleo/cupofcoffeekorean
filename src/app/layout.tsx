@@ -23,15 +23,17 @@ type RootLayoutProps = {
   children: ReactNode;
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
   );
 }
+
+
 
 
 
